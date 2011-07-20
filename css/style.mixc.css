@@ -1,0 +1,33 @@
+/*
+ * style.mixc.css
+ */
+
+body {
+	font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+}
+
+h1 {
+	border: solid 1px black;
+	text-align: center;
+	padding: 10px;
+}
+
+/****{mixc}*************************************************************
+// This part will be dynamically processed by mixc.js
+#container {
+	.container;
+	.clearfix;
+}
+#header {
+	.grid_12;
+}
+#sidebar {
+	.grid_3;
+}
+#main {
+	.grid_9;
+}
+#footer {
+	.grid_12;
+}
+***********************************************************************/

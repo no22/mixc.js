@@ -1,0 +1,38 @@
+mixc.js
+Copyright (c) 2011 Hiroyuki OHARA 
+
+This tiny Javascript dynamically mix CSS classes. (CSS Mixin)
+You can make your own class by mixing classes of your favorite css framework. 
+This script was inspired by gotto's excellent work. Thanks! (http://gotto.jp/blog/entries/012)
+
+Usage:
+ 1. Write your mixin in a special comment on your stylesheet. 
+    Special comment part starts with "/****{mixc}" and ends with "****/".
+    
+    /****{mixc}
+    .main-content {
+		// You can use single-line comment
+		.grid_9;
+		.boxed;
+    }
+    .sidebar {
+		.grid_3;
+		.boxed;
+    }
+    ****/
+ 
+ 2. Attach a suffix ".mixc.css" to stylesheet and save it.
+
+ 3. Link your ".mixc.css" stylesheets.
+ 
+    <link rel="stylesheet" type="text/css" href="css/style.mixc.css"/>
+    
+ 4. Include jQuery and mixc-min.js in the <head> element of your page.
+ 
+    <script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="mixc-min.js"></script>
+
+    Make sure you include your stylesheets before the script.
+    
+
+
