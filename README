@@ -11,13 +11,13 @@ Usage:
     
     /****{mixc}
     .main-content {
-		// You can use single-line comment
-		.grid_9;
-		.boxed;
+        // You can use single-line comment
+        .grid_9;
+        .boxed;
     }
     .sidebar {
-		.grid_3;
-		.boxed;
+        .grid_3;
+        .boxed;
     }
     ****/
  
@@ -30,7 +30,7 @@ Usage:
  4. Include jQuery and mixc-min.js in the <head> element of your page.
  
     <script type="text/javascript" src="jquery.min.js"></script>
-	<script type="text/javascript" src="mixc-min.js"></script>
+    <script type="text/javascript" src="mixc-min.js"></script>
 
     Make sure you include your stylesheets before the script.
     
